@@ -1,0 +1,72 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "emailId": "deepak.jadhav@gmail.com",
+      "password": "Deepak@123",
+      "role": "admin",
+      "firstName": "Deepak",
+      "lastName": "Jadhav"
+    },
+    {
+      "id": 25,
+      "emailId": "ramesh.sharma@gmail.com",
+      "password": "Ramesh@123",
+      "role": "employee",
+      "firstName": "Ramesh",
+      "lastName": "Sharma"
+    },
+    {
+      "firstName": "Seeta",
+      "lastName": "Sharma",
+      "emailId": "seeta.sharma@gmail.com",
+      "role": "employee",
+      "profilePicture": {
+        "name": "",
+        "size": null,
+        "type": ""
+      },
+      "id": 26
+    }
+  ],
+  "accessory": [
+    {
+      "id": 1,
+      "name": "LG 350 Mobile",
+      "companyName": "LG",
+      "description": "LG 350 Mobile ....",
+      "price": 1500,
+      "category": "Electronics",
+      "status": "R",
+      "employeeId": 2
+    },
+    {
+      "id": 2,
+      "name": "LG TV",
+      "companyName": "LG",
+      "description": "LG TV Mobile ....",
+      "price": 25000,
+      "category": "Electronics",
+      "status": "Y",
+      "employeeId": 25
+    }
+  ],
+  "category": [
+    {
+      "id": 102,
+      "name": "Watche"
+    },
+    {
+      "id": 103,
+      "name": "Toy"
+    },
+    {
+      "id": 104,
+      "name": "Books"
+    },
+    {
+      "id": 105,
+      "name": "Electronics"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+.login {
+   margin: 50px;
+}
+
+.base-color {
+   background: #214cbd;
+   color: white;
+}
+
+.header {}
+
+.header-container {
+   height: 60px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   display: flex;
+}
+
+.menu {
+   padding: 0 25px;
+   margin-top: 1px;
+}
+
+.footer {
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   padding: 0 15px
+      /* text-align: center; */
+}
+
+.user-info:hover {
+   border: 1px solid;
+   padding: 5px;
+   border-radius: 1px;
+}
+
+.pointer {
+   cursor: pointer;
+}
+
+.active-menu {
+   text-decoration: none;
+   margin-right: 15px;
+   background: rgb(251 251 251);
+   /*color: blue;
+   padding: 2px; */
+   font-weight: 500;
+}
+
+.inactive-menu {
+   color: white;
+   text-decoration: none;
+   /* margin-right: 15px; */
+}
+
+/* a:hover {
+   text-decoration: none;
+   margin-right: 15px;
+   background: rgb(251 251 251);
+   color: blue;
+   padding: 2px;
+   font-weight: 500;
+} */
+
+.menu-container-zoom-out {
+   width: 18%;
+   transition: width 0.5s;
+}
+
+.main-container-zoom-out {
+   width: 82%;
+   height: 100vh;
+}
+
+.menu-container-zoom-in {
+   width: 4%;
+   transition: width 0.5s;
+}
+
+.main-container-zoom-in {
+   width: 96%;
+   height: 100vh;
+}
+
+.automobiles-container {
+   display: flex;
+}
+
+.dynamic-container {
+   background: rgb(251 251 251);
+   padding: 0 15px 15px 15px;
+   height: 100vh;
+}
+
+.menu-label {
+   color: white;
+   margin-left: 30%;
+}
+
+.menu-item {
+   text-decoration: none;
+}
+
+.menu-title {
+   text-align: center;
+   font-size: 24px;
+   font-family: fantasy;
+   word-spacing: 100px;
+   letter-spacing: 2px;
+   margin-top: 16px;
+}
+
+.menu-icon-label {
+   display: flex;
+   font-size: 17px;
+   margin-bottom: 5px;
+}
+
+/* NavLink {
+   background: darkblue;
+} */
+
+
+.css-ja5taz-MuiTooltip-tooltip {
+   /* .css-ja5taz-MuiTooltip-tooltip */
+   background-color: rgb(255 255 255 / 92%) !important;
+   color: #000 !important;
+   font-size: 13px !important;
+}
+
+.auto-hr {
+   margin-top: 50px
+}
+
+.selling-accessory-form {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.selling-accessory-title {
+   background: #ededed;
+   padding: 5px;
+}
